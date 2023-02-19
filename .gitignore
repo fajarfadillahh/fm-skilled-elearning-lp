@@ -17,5 +17,8 @@ pnpm-debug.log*
 .env
 .env.production
 
+# docs and figma
+docs/
+
 # macOS-specific files
 .DS_Store
