@@ -1,0 +1,13 @@
+---
+interface Props {
+  class: string;
+}
+const { class: className } = Astro.props;
+---
+
+<div
+  class={`w-[380px] xl:w-[700px] h-[600px] md:h-[620px]  xl:h-[940px] absolute top-0 right-0 bg-hero-tablet xl:bg-hero-desktop bg-cover bg-no-repeat bg-[-30px_-60px] md:bg-[0px_-60px] xl:bg-[0px_-160px] -z-20 ${
+    className ?? ""
+  }`}
+>
+</div>

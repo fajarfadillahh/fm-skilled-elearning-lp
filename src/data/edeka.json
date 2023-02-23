@@ -1,0 +1,1676 @@
+{
+  "totalCount": 6148,
+  "limit": 10,
+  "offset": 0,
+  "markets": [
+    {
+      "id": 4191,
+      "name": "nah & gut Bauch",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Langenaltheim", "zipCode": "91799" },
+          "street": "Obere Hauptstraße 19",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+4991456941",
+        "phoneNumber": "+4991456941"
+      },
+      "imprint": {
+        "companyName": "Josef Bauch",
+        "address": {
+          "city": { "name": "Langenaltheim", "zipCode": "91799" },
+          "street": "Obere Hauptstraße 13"
+        }
+      },
+      "coordinates": { "lat": "48.8935289", "lon": "10.9268376" },
+      "businessHours": {
+        "additionalInfo": "Mittagspause: 12:15-14:30 Uhr \r\n Dienstag nachmittags geschlossen",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "18:00",
+          "breakFrom": "12:15",
+          "breakTo": "14:30",
+          "timeEntries": [
+            { "from": "07:30", "to": "12:15" },
+            { "from": "14:30", "to": "18:00" }
+          ]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "18:00",
+          "breakFrom": "12:15",
+          "breakTo": "14:30",
+          "timeEntries": [
+            { "from": "07:30", "to": "12:15" },
+            { "from": "14:30", "to": "18:00" }
+          ]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "18:00",
+          "breakFrom": "12:15",
+          "breakTo": "14:30",
+          "timeEntries": [
+            { "from": "07:30", "to": "12:15" },
+            { "from": "14:30", "to": "18:00" }
+          ]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "18:00",
+          "breakFrom": "12:15",
+          "breakTo": "14:30",
+          "timeEntries": [
+            { "from": "07:30", "to": "12:15" },
+            { "from": "14:30", "to": "18:00" }
+          ]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "12:00",
+          "timeEntries": [{ "from": "07:30", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 10000288,
+        "name": "Josef Bauch",
+        "address": {
+          "street": "Obere Hauptstraße 13",
+          "city": "Langenaltheim",
+          "zipCode": "91799"
+        }
+      },
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "FISCHTHEKE",
+          "name": "Fischtheke",
+          "abbreviation": "w",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "LIEFERSERVICE",
+          "name": "Lieferservice",
+          "abbreviation": "l",
+          "type": "service"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1352,
+      "name": "EDEKA Kaltschmid",
+      "distributionChannel": { "name": "EDEKA", "type": "EDEKA" },
+      "contact": {
+        "address": {
+          "city": { "name": "Marquartstein", "zipCode": "83250" },
+          "street": "Pettendorfer Straße 4",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+49864161895",
+        "phoneNumber": "+4986418657"
+      },
+      "imprint": {
+        "companyName": "Monika Schwarzenböck e.K. (Kaltschmid)",
+        "address": {
+          "city": { "name": "Unterwössen", "zipCode": "83246" },
+          "street": "Hauptstraße 51"
+        }
+      },
+      "coordinates": { "lat": "47.7609311", "lon": "12.4619131" },
+      "businessHours": {
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "19:30",
+          "timeEntries": [{ "from": "07:30", "to": "19:30" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "19:30",
+          "timeEntries": [{ "from": "07:30", "to": "19:30" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "19:30",
+          "timeEntries": [{ "from": "07:30", "to": "19:30" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "19:30",
+          "timeEntries": [{ "from": "07:30", "to": "19:30" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "19:30",
+          "timeEntries": [{ "from": "07:30", "to": "19:30" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "07:30", "to": "18:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 8,
+        "name": "EDKEA Kaltschmid",
+        "address": {
+          "street": "Hauptstraße 51",
+          "city": "Unterwössen",
+          "zipCode": "83246"
+        }
+      },
+      "url": "https://www.edeka.de/eh/südbayern/edeka-kaltschmid-pettendorfer-straße-4/index.jsp",
+      "urlExtern": "http://www.edeka-kaltschmid.de",
+      "nationalOffers": false,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "ABHOLSERVICE",
+          "name": "Abholservice",
+          "abbreviation": "as",
+          "type": "service"
+        },
+        {
+          "id": "AUSBILDENDER_BETRIEB",
+          "name": "Ausbildender Betrieb",
+          "abbreviation": "a",
+          "type": "service"
+        },
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "BLUMEN",
+          "name": "Blumen",
+          "abbreviation": "blume",
+          "type": "assortment"
+        },
+        {
+          "id": "CASHBACK",
+          "name": "Bargeldauszahlung",
+          "abbreviation": "cb",
+          "type": "service"
+        },
+        {
+          "id": "DEUTSCHLAND_CARD",
+          "name": "DeutschlandCard",
+          "abbreviation": "d",
+          "type": "service"
+        },
+        {
+          "id": "EDEKA_GUTSCHEINKARTE",
+          "name": "EDEKA Gutscheinkarte",
+          "abbreviation": "eg",
+          "type": "service"
+        },
+        {
+          "id": "EDEKA_MOBIL",
+          "name": "EDEKA smart",
+          "abbreviation": "em",
+          "type": "service"
+        },
+        {
+          "id": "ERNAEHRUNGSSERVICE",
+          "name": "Ernährungsservice",
+          "abbreviation": "e",
+          "type": "assortment"
+        },
+        {
+          "id": "FISCHTHEKE",
+          "name": "Fischtheke",
+          "abbreviation": "w",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GENERATIONEN_MARKT",
+          "name": "Generationen-Markt",
+          "abbreviation": "gm",
+          "type": "service"
+        },
+        {
+          "id": "GESCHENKKOERBE",
+          "name": "Geschenkkörbe",
+          "abbreviation": "gko",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "GLUTENFREI",
+          "name": "Glutenfrei",
+          "abbreviation": "gf",
+          "type": "assortment"
+        },
+        {
+          "id": "HANDYAUFLADUNG",
+          "name": "Handy-Aufladung",
+          "abbreviation": "ha",
+          "type": "service"
+        },
+        {
+          "id": "HAUSHALTSWAREN",
+          "name": "Haushaltswaren",
+          "abbreviation": "nf",
+          "type": "assortment"
+        },
+        {
+          "id": "HEISSE_THEKE",
+          "name": "Heiße Theke",
+          "abbreviation": "ht",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "LAKTOSEFREI",
+          "name": "Laktosefrei",
+          "abbreviation": "lf",
+          "type": "assortment"
+        },
+        {
+          "id": "MOBILE_HANDY_COUPONS",
+          "name": "EDEKA App Coupons",
+          "abbreviation": "mhc",
+          "type": "service"
+        },
+        {
+          "id": "MOBILES_BEZAHLEN",
+          "name": "Mobiles Bezahlen per Handy",
+          "abbreviation": "mb",
+          "type": "service"
+        },
+        {
+          "id": "PARTYSERVICE",
+          "name": "Partyservice",
+          "abbreviation": "ps",
+          "type": "service"
+        },
+        {
+          "id": "SONSTIGE_GUTHABENKARTEN",
+          "name": "Sonst. Guthabenkarten (z.B. itunes)",
+          "abbreviation": "sgk",
+          "type": "assortment"
+        },
+        {
+          "id": "SONSTIGE_EINKAUFSGUTSCHEINE",
+          "name": "Sonstige Einkaufsgutscheine",
+          "abbreviation": "gc",
+          "type": "service"
+        },
+        {
+          "id": "VEGAN",
+          "name": "Vegan",
+          "abbreviation": "vega",
+          "type": "assortment"
+        },
+        {
+          "id": "VEGETARISCH",
+          "name": "Vegetarisch",
+          "abbreviation": "vege",
+          "type": "assortment"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        },
+        {
+          "id": "WLAN_HOTSPOT",
+          "name": "WLAN",
+          "abbreviation": "wlan",
+          "type": "service"
+        },
+        {
+          "id": "GENUSS_PLUS",
+          "name": "Genuss+",
+          "abbreviation": "gp",
+          "type": "service"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1250,
+      "name": "EDEKA Wirth",
+      "distributionChannel": { "name": "EDEKA", "type": "EDEKA" },
+      "contact": {
+        "address": {
+          "city": { "name": "Kastl", "zipCode": "84556" },
+          "street": "Dorfstraße 5",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+498671924783",
+        "phoneNumber": "+4986714314"
+      },
+      "imprint": {
+        "companyName": "Beate Wirth",
+        "address": {
+          "city": { "name": "Kastl", "zipCode": "84556" },
+          "street": "Dorfstraße 5"
+        }
+      },
+      "coordinates": { "lat": "48.1946885", "lon": "12.6966465" },
+      "businessHours": {
+        "additionalInfo": "Mittagspause: 12.30 - 14:00 UhrIMittwoch nachmittags geschlossen",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "18:00",
+          "breakFrom": "12:30",
+          "breakTo": "14:00",
+          "timeEntries": [
+            { "from": "07:00", "to": "12:30" },
+            { "from": "14:00", "to": "18:00" }
+          ]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "18:00",
+          "breakFrom": "12:30",
+          "breakTo": "14:00",
+          "timeEntries": [
+            { "from": "07:00", "to": "12:30" },
+            { "from": "14:00", "to": "18:00" }
+          ]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "18:00",
+          "breakFrom": "12:30",
+          "breakTo": "14:00",
+          "timeEntries": [
+            { "from": "07:00", "to": "12:30" },
+            { "from": "14:00", "to": "18:00" }
+          ]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "18:00",
+          "timeEntries": [{ "from": "07:00", "to": "18:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "07:00", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 10000141,
+        "name": "Beate Wirth",
+        "address": {
+          "street": "Dorfstraße 5",
+          "city": "Kastl",
+          "zipCode": "84556"
+        }
+      },
+      "url": "https://www.edeka.de/eh/südbayern/edeka-wirth-dorfstraße-5/index.jsp",
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1265,
+      "name": "nah & gut Straubinger",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Haiming", "zipCode": "84533" },
+          "street": "Hauptstraße 16",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+498678919475",
+        "phoneNumber": "+498678919476"
+      },
+      "imprint": {
+        "companyName": "Eva Straubinger",
+        "address": {
+          "city": { "name": "Haiming", "zipCode": "84533" },
+          "street": "Hauptstr. 16"
+        }
+      },
+      "coordinates": { "lat": "48.21278", "lon": "12.88672" },
+      "businessHours": {
+        "additionalInfo": "Mittagspause: 12:30-15:30 Uhr",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "07:00", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 2132,
+        "name": "Eva Straubinger",
+        "address": {
+          "street": "Hauptstr. 16",
+          "city": "Haiming",
+          "zipCode": "84533"
+        }
+      },
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 4210,
+      "name": "nah & gut Dussmann",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Neustadt-Mühlhausen", "zipCode": "93333" },
+          "street": "Pfarrer-Meier-Weg 5",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+498403939265",
+        "phoneNumber": "+499444486"
+      },
+      "imprint": {
+        "companyName": "Karl Dussmann",
+        "address": {
+          "city": { "name": "Pförring", "zipCode": "85104" },
+          "street": "Max-Pollin-Straße 6"
+        }
+      },
+      "coordinates": { "lat": "48.77493", "lon": "11.78984" },
+      "businessHours": {
+        "additionalInfo": "Nachmittags geschlossen",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 10000298,
+        "name": "Karl Dussmann",
+        "address": {
+          "street": "Max-Pollin-Straße 6",
+          "city": "Pförring",
+          "zipCode": "85104"
+        }
+      },
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1268,
+      "name": "nah & gut Szabo",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Tittmoning - Asten", "zipCode": "84529" },
+          "street": "Dorfstraße 4",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+4986837823",
+        "phoneNumber": "+4986837823"
+      },
+      "imprint": {
+        "companyName": "Eva Szabo",
+        "address": {
+          "city": { "name": "Tittmoning", "zipCode": "84529" },
+          "street": "Dorfstr. 4"
+        }
+      },
+      "coordinates": { "lat": "48.09914", "lon": "12.72454" },
+      "businessHours": {
+        "additionalInfo": "\nMittagspause: 12:15 - 14:00 Uhr \n Dienstag nachmittags geschlossen",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "06:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "06:00", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 2266,
+        "name": "Eva Szabo",
+        "address": {
+          "street": "Dorfstr. 4",
+          "city": "Tittmoning",
+          "zipCode": "84529"
+        }
+      },
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1260,
+      "name": "nah & gut Steinberger",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Fridolfing / Pietling", "zipCode": "83413" },
+          "street": "Hauptstraße 22",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+498684961932",
+        "phoneNumber": "+498684264"
+      },
+      "imprint": {
+        "companyName": "Bäckerei Steinberger GmbH",
+        "address": {
+          "city": { "name": "Fridolfing", "zipCode": "83413" },
+          "street": "Hauptstraße 22"
+        }
+      },
+      "coordinates": { "lat": "48.0180558", "lon": "12.7985256" },
+      "businessHours": {
+        "additionalInfo": "Mittagspause: 12.30-14:00 Uhr \r\n Mittwoch nachmittags geschlossen",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "06:30",
+          "to": "18:00",
+          "timeEntries": [{ "from": "06:30", "to": "18:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 10000162,
+        "name": "Bäckerei Steinberger GmbH",
+        "address": {
+          "street": "Hauptstraße 22",
+          "city": "Fridolfing",
+          "zipCode": "83413"
+        }
+      },
+      "url": "http://www.edeka-steinberger.de/",
+      "urlExtern": "http://www.edeka-steinberger.de/",
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "FISCHTHEKE",
+          "name": "Fischtheke",
+          "abbreviation": "w",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1290,
+      "name": "nah & gut Zettl",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Ering", "zipCode": "94140" },
+          "street": "Römerstraße 5",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+498573969373",
+        "phoneNumber": "+498573626"
+      },
+      "imprint": {
+        "companyName": "Paul Zettl",
+        "address": {
+          "city": { "name": "Ering", "zipCode": "94140" },
+          "street": "Römerstr. 5"
+        }
+      },
+      "coordinates": { "lat": "48.2979693", "lon": "13.1473726" },
+      "businessHours": {
+        "additionalInfo": "Mittagspause: 12:00 - 14:00 Uhr",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "18:00",
+          "timeEntries": [{ "from": "08:00", "to": "18:00" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "18:00",
+          "timeEntries": [{ "from": "08:00", "to": "18:00" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "18:00",
+          "timeEntries": [{ "from": "08:00", "to": "18:00" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "18:00",
+          "timeEntries": [{ "from": "08:00", "to": "18:00" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "18:00",
+          "timeEntries": [{ "from": "08:00", "to": "18:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:30",
+          "to": "12:00",
+          "timeEntries": [{ "from": "07:30", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 2719,
+        "name": "Paul Zettl",
+        "address": {
+          "street": "Römerstr. 5",
+          "city": "Ering",
+          "zipCode": "94140"
+        }
+      },
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 1288,
+      "name": "nah & gut Zehentmair",
+      "distributionChannel": { "name": "nah & gut", "type": "Andere" },
+      "contact": {
+        "address": {
+          "city": { "name": "Bad Aibling", "zipCode": "83043" },
+          "street": "Breitensteinstraße 2",
+          "federalState": "Bayern"
+        },
+        "emailAddress": "service.suedbayern@edeka.de",
+        "facsimileNumber": "+498061937227",
+        "phoneNumber": "+4980618534"
+      },
+      "imprint": {
+        "companyName": "Evi Zehentmair",
+        "address": {
+          "city": { "name": "Bad Aibling", "zipCode": "83043" },
+          "street": "Breitensteinstr. 2"
+        }
+      },
+      "coordinates": { "lat": "47.8586484", "lon": "11.9992928" },
+      "businessHours": {
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:30",
+          "timeEntries": [{ "from": "07:00", "to": "12:30" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "07:00",
+          "to": "12:00",
+          "timeEntries": [{ "from": "07:00", "to": "12:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 2717,
+        "name": "Evi Zehentmair",
+        "address": {
+          "street": "Breitensteinstr. 2",
+          "city": "Bad Aibling",
+          "zipCode": "83043"
+        }
+      },
+      "nationalOffers": true,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GETRAENKESHOP",
+          "name": "Getränkeshop",
+          "abbreviation": "gs",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "LIEFERSERVICE",
+          "name": "Lieferservice",
+          "abbreviation": "l",
+          "type": "service"
+        },
+        {
+          "id": "WEINBERATUNG",
+          "name": "Weinberatung",
+          "abbreviation": "wb",
+          "type": "assortment"
+        }
+      ],
+      "region": { "abbreviation": "SB", "name": "Südbayern", "id": 1000 }
+    },
+    {
+      "id": 166,
+      "name": "Hieber´s Frische Center",
+      "distributionChannel": { "name": "EDEKA", "type": "EDEKA" },
+      "contact": {
+        "address": {
+          "city": { "name": "Schopfheim", "zipCode": "79650" },
+          "street": "Georg-Ühlin-Straße 1",
+          "federalState": "Baden-Württemberg"
+        },
+        "emailAddress": "schopfheim@hieber.de",
+        "facsimileNumber": "+4976226669911",
+        "phoneNumber": "+497622666990"
+      },
+      "imprint": {
+        "companyName": "Hieber´s Frische Center KG",
+        "address": {
+          "city": { "name": "Binzen", "zipCode": "77656" },
+          "street": "Kanderweg 21"
+        }
+      },
+      "coordinates": { "lat": "47.6482546", "lon": "7.8149765" },
+      "businessHours": {
+        "additionalInfo": "Backstand: Mo-Sa ab 07:00 Uhr geöffnet, Sonntag 08:00 - 11:00 Uhr",
+        "monday": {
+          "weekday": "MONDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "20:00",
+          "timeEntries": [{ "from": "08:00", "to": "20:00" }]
+        },
+        "tuesday": {
+          "weekday": "TUESDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "20:00",
+          "timeEntries": [{ "from": "08:00", "to": "20:00" }]
+        },
+        "wednesday": {
+          "weekday": "WEDNESDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "20:00",
+          "timeEntries": [{ "from": "08:00", "to": "20:00" }]
+        },
+        "thursday": {
+          "weekday": "THURSDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "20:00",
+          "timeEntries": [{ "from": "08:00", "to": "20:00" }]
+        },
+        "friday": {
+          "weekday": "FRIDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "20:00",
+          "timeEntries": [{ "from": "08:00", "to": "20:00" }]
+        },
+        "saturday": {
+          "weekday": "SATURDAY",
+          "open": true,
+          "from": "08:00",
+          "to": "20:00",
+          "timeEntries": [{ "from": "08:00", "to": "20:00" }]
+        }
+      },
+      "specialBusinessHours": [
+        { "date": "01.01.2024", "reason": "Neujahrstag", "open": false },
+        {
+          "date": "06.01.2024",
+          "reason": "Heilige Drei Könige",
+          "open": false
+        },
+        { "date": "07.04.2023", "reason": "Karfreitag", "open": false },
+        { "date": "10.04.2023", "reason": "Ostermontag", "open": false },
+        { "date": "01.05.2023", "reason": "Tag der Arbeit", "open": false },
+        {
+          "date": "18.05.2023",
+          "reason": "Christi Himmelfahrt",
+          "open": false
+        },
+        { "date": "29.05.2023", "reason": "Pfingstmontag", "open": false },
+        { "date": "08.06.2023", "reason": "Fronleichnam", "open": false },
+        {
+          "date": "03.10.2023",
+          "reason": "Tag der Deutschen Einheit",
+          "open": false
+        },
+        { "date": "01.11.2023", "reason": "Allerheiligen", "open": false },
+        { "date": "25.12.2023", "reason": "1. Weihnachtstag", "open": false },
+        { "date": "26.12.2023", "reason": "2. Weihnachtstag", "open": false }
+      ],
+      "merchant": {
+        "id": 165,
+        "name": "Hieber´s Frische Center KG",
+        "address": {
+          "street": "Kanderweg 21",
+          "city": "Binzen",
+          "zipCode": "77656"
+        }
+      },
+      "url": "http://www.hieber.de/schopfheim",
+      "urlExtern": "http://www.hieber.de/schopfheim",
+      "nationalOffers": false,
+      "validFrom": "01.01.2006",
+      "services": [
+        {
+          "id": "AUSBILDENDER_BETRIEB",
+          "name": "Ausbildender Betrieb",
+          "abbreviation": "a",
+          "type": "service"
+        },
+        {
+          "id": "BACKSHOP_BAECKEREI",
+          "name": "Backshop/Bäckerei",
+          "abbreviation": "b",
+          "type": "assortment"
+        },
+        {
+          "id": "BACKSTATION",
+          "name": "Backstation",
+          "abbreviation": "bs",
+          "type": "assortment"
+        },
+        {
+          "id": "CASHBACK",
+          "name": "Bargeldauszahlung",
+          "abbreviation": "cb",
+          "type": "service"
+        },
+        {
+          "id": "EDEKA_MOBIL",
+          "name": "EDEKA smart",
+          "abbreviation": "em",
+          "type": "service"
+        },
+        {
+          "id": "ERNAEHRUNGSSERVICE",
+          "name": "Ernährungsservice",
+          "abbreviation": "e",
+          "type": "assortment"
+        },
+        {
+          "id": "FISCHTHEKE",
+          "name": "Fischtheke",
+          "abbreviation": "w",
+          "type": "assortment"
+        },
+        {
+          "id": "FLEISCH_WURSTTHEKE",
+          "name": "Fleisch-& Wursttheke",
+          "abbreviation": "fw",
+          "type": "assortment"
+        },
+        {
+          "id": "GENERATIONEN_MARKT",
+          "name": "Generationen-Markt",
+          "abbreviation": "gm",
+          "type": "service"
+        },
+        {
+          "id": "GLUTENFREI",
+          "name": "Glutenfrei",
+          "abbreviation": "gf",
+          "type": "assortment"
+        },
+        {
+          "id": "HEISSE_THEKE",
+          "name": "Heiße Theke",
+          "abbreviation": "ht",
+          "type": "assortment"
+        },
+        {
+          "id": "KOSTENFREIE_PARKPLAETZE",
+          "name": "Kostenfreie Parkplätze",
+          "abbreviation": "pp",
+          "type": "service"
+        },
+        {
+          "id": "KREDITKARTE_AKZEPTIERT",
+          "name": "Kreditkarte akzeptiert",
+          "abbreviation": "ka",
+          "type": "service"
+        },
+        {
+          "id": "KAESETHEKE",
+          "name": "Käsetheke",
+          "abbreviation": "k",
+          "type": "assortment"
+        },
+        {
+          "id": "LAKTOSEFREI",
+          "name": "Laktosefrei",
+          "abbreviation": "lf",
+          "type": "assortment"
+        },
+        {
+          "id": "VEGAN",
+          "name": "Vegan",
+          "abbreviation": "vega",
+          "type": "assortment"
+        },
+        {
+          "id": "VEGETARISCH",
+          "name": "Vegetarisch",
+          "abbreviation": "vege",
+          "type": "assortment"
+        },
+        {
+          "id": "SONSTIGE_GUTHABENKARTEN",
+          "name": "Sonst. Guthabenkarten (z.B. itunes)",
+          "abbreviation": "sgk",
+          "type": "assortment"
+        },
+        {
+          "id": "EDEKA_GUTSCHEINKARTE",
+          "name": "EDEKA Gutscheinkarte",
+          "abbreviation": "eg",
+          "type": "service"
+        }
+      ],
+      "region": { "abbreviation": "SW", "name": "Südwest", "id": 100 }
+    }
+  ],
+  "_links": {
+    "self": {
+      "rel": "self",
+      "href": "/api/marketsearch/markets?page=0&size=10"
+    },
+    "next": {
+      "rel": "next",
+      "href": "/api/marketsearch/markets?page=1&size=10"
+    }
+  }
+}

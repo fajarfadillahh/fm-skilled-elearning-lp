@@ -1,15 +1,25 @@
 ---
+import BaseLayout from "../components/BaseLayout.astro";
+import CourseList from "../components/courses/CourseList.astro";
+import Gradient1Button from "../components/Gradient1Button.astro";
+import HeroCircle from "../components/hero/HeroCircle.astro";
+import HeroImage from "../components/hero/HeroImage.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+  <HeroImage class="hidden md:block" />
+  <div class="p-4 md:mb-40 md:pl-6 md:mt-1 xl:mt-28 w-[440px] xl:w-[500px]">
+    <div class="text-heading-l xl:text-heading-xl">
+      Maximize skill, minimize budget
+    </div>
+    <div
+      class="mt-6 xl:mt-10 text-gray-700 text-body-s font-medium leading-[1.625rem] xl:text-base"
+    >
+      Our modern courses across a range of in-demand skills will give you the
+      knowledge you need to live the life you want.
+    </div>
+    <Gradient1Button class="mt-6 xl:mt-10">Get Started</Gradient1Button>
+  </div>
+  <HeroCircle class="mt-8 md:hidden" />
+  <CourseList />
+</BaseLayout>

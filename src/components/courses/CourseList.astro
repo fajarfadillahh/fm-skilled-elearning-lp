@@ -1,0 +1,52 @@
+---
+import HeroTeaser from "../hero/HeroTeaser.astro";
+import CourseCard from "./CourseCard.astro";
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<div
+  class="bg-gradient-to-b from-white to-gray-50 w-full flex justify-center max-w-[1440px]"
+>
+  <div
+    class="px-4 pb-20 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-y-8 md:gap-x-2.5 xl:grid-cols-3 xl:gap-x-[30px] xl:gap-y-14 xl:mt-8"
+  >
+    <HeroTeaser
+      class="max-w-[375px] md:max-w-[340px] md:mt-6 md:pt-[50px] xl:text-heading-m"
+    >
+      Check out our most popular courses!
+    </HeroTeaser>
+    <CourseCard
+      icon="/assets/icon-animation.svg"
+      title="Animation"
+      description="Learn the latest animation techniques to create stunning motion design and captivate your audience."
+      class="max-w-[375px] md:max-w-[340px] xl:max-w-[350px]"
+    />
+    <CourseCard
+      icon="/assets/icon-design.svg"
+      title="Design"
+      description="Create beautiful, usable interfaces to help shape the future of how the web looks."
+      class="max-w-[375px] md:max-w-[340px]"
+    />
+    <CourseCard
+      icon="/assets/icon-photography.svg"
+      title="Photography"
+      description="Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
+      class="max-w-[375px] md:max-w-[340px]"
+    />
+    <CourseCard
+      icon="/assets/icon-crypto.svg"
+      title="Crypto"
+      description="All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
+      class="max-w-[375px] md:max-w-[340px]"
+    />
+    <CourseCard
+      icon="/assets/icon-business.svg"
+      title="Business"
+      description="A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
+      class="max-w-[375px] md:max-w-[340px]"
+    />
+  </div>
+</div>

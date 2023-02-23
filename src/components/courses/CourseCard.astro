@@ -1,0 +1,20 @@
+---
+const { icon, title, description, class: className } = Astro.props;
+---
+
+<div class={`pt-6 relative ${className}`}>
+  <div class="bg-white rounded-[10px] drop-shadow-hero-card pt-14 px-7 pb-8">
+    <div class="text-heading-s">{title}</div>
+    <div
+      class="mt-4 text-gray-700 text-body-s xl:text-base font-medium h-[78px] xl:h-[112px]"
+    >
+      {description}
+    </div>
+    <div class="mt-6 text-red-700 font-bold">Get Started</div>
+  </div>
+  <div
+    class="absolute top-0 left-7 w-14 h-14 rounded-full bg-gradient1 flex justify-center items-center"
+  >
+    <img src={icon} />
+  </div>
+</div>
