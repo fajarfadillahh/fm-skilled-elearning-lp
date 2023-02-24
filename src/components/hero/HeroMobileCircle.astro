@@ -1,0 +1,25 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<div class={`w-[375px] mx-auto overflow-hidden ${className}`}>
+  <picture>
+    <source
+      type="image/webp"
+      srcset="/assets/image-hero-mobile.webp 1x, /assets/image-hero-mobile@2x.webp 2x"
+    />
+    <source
+      type="image/png"
+      srcset="/assets/image-hero-mobile.png 1x, /assets/image-hero-mobile@2x.png 2x"
+    />
+    <img
+      src="/assets/image-hero-mobile.png"
+      alt="Live the life you want"
+      loading="lazy"
+      class="transform scale-[115%] origin-center"
+    />
+  </picture>
+</div>
