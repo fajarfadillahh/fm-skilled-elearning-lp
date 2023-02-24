@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import BlackButton from "./BlackButton.astro";
 import Gradient2Button from "./Gradient2Button.astro";
 ---
@@ -8,15 +9,14 @@ import Gradient2Button from "./Gradient2Button.astro";
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <style>
-      @import "../styles/global.css";
-    </style>
     <title>Skilled eLearning Landing Page</title>
   </head>
   <body class="text-base text-blue-700">
     <div class="flex flex-col items-center">
-      <div class="p-4 md:px-10 xl:px-44 w-full absolute">
-        <header class="flex justify-between items-center mb-9">
+      <div class="w-full absolute flex justify-center">
+        <header
+          class="flex justify-between items-center mb-9 p-4 md:px-10 xl:px-44 max-w-[768px] xl:max-w-[1440px] w-full"
+        >
           <p class="font-bold text-[28px] xl:text-heading-l">skilled</p>
           <BlackButton>Get Started</BlackButton>
         </header>
@@ -24,11 +24,13 @@ import Gradient2Button from "./Gradient2Button.astro";
       <div class="mt-[100px]">
         <slot />
       </div>
-      <footer
-        class="w-full h-[120px] bg-blue-700 flex items-center justify-between px-4 md:px-10 xl:px-44"
-      >
-        <p class="font-bold text-[28px] text-white">skilled</p>
-        <Gradient2Button>Get Started</Gradient2Button>
+      <footer class="w-full h-[120px] bg-blue-700 flex justify-center">
+        <div
+          class="flex items-center justify-between max-w-[768px] xl:max-w-[1440px] w-full px-4 md:px-10 xl:px-44"
+        >
+          <p class="font-bold text-[28px] text-white">skilled</p>
+          <Gradient2Button>Get Started</Gradient2Button>
+        </div>
       </footer>
     </div>
   </body>

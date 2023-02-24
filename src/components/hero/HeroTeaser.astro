@@ -1,9 +1,25 @@
 ---
+import Gradient1Button from "../Gradient1Button.astro";
+
+interface Props {
+  class?: string;
+}
 const { class: className } = Astro.props;
 ---
 
 <div
-  class={`bg-gradient1 rounded-[10px] pt-6 px-7 pb-8 text-white text-heading-s ${className}`}
+  class={`p-4 md:mb-40 md:pl-6 md:mt-1 xl:mt-28 w-[440px] xl:w-[500px] ${
+    className ?? ""
+  }`}
 >
-  <slot />
+  <div class="text-heading-l xl:text-heading-xl">
+    Maximize skill, minimize budget
+  </div>
+  <div
+    class="mt-6 xl:mt-10 text-gray-700 text-body-s font-medium leading-[1.625rem] xl:text-base"
+  >
+    Our modern courses across a range of in-demand skills will give you the
+    knowledge you need to live the life you want.
+  </div>
+  <Gradient1Button class="mt-6 xl:mt-10">Get Started</Gradient1Button>
 </div>
